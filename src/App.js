@@ -62,9 +62,9 @@ const App = () => {
 
   return (
     <div className="bg-gray-50 h-auto">
-      <div className="flex items-start justify-between p-4">
-        <div className="border border-gray-400 h-auto">
-          <form onSubmit={actionPost} className="flex flex-col p-2">
+      <div className="flex flex-col md:flex-row items-start justify-between p-4">
+        <div className="border border-gray-400 h-auto w-full">
+          <form onSubmit={actionPost} className="flex flex-col p-2 w-full">
             <textarea
               name="post"
               id="post"
